@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-change-this-in-production'
 # وضع التطوير - يجب تعيينه إلى False في بيئة الإنتاج
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [*]
 
 # تعريف التطبيقات المثبتة
 INSTALLED_APPS = [
